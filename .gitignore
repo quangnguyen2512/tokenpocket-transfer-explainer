@@ -7,3 +7,8 @@ venv/
 .env.local
 .DS_Store
 Thumbs.db
+
+# Local HITL submission guides & one-click launchers (keep local paths private)
+FINAL_5MIN_SUBMIT_GUIDE.md
+OPEN_TOKENPOCKET_SUBMIT.ps1
+GOOGLE_DOC_IMPORT_READY.html

@@ -6,7 +6,7 @@ Complete, fact-checked Track A submission kit for Superteam Earn bounty **Create
 
 ```text
 superteam_2fe06f76c811_tokenpocket/
-├── README.md                          # Quickstart & 5-minute launch instructions
+├── README.md                          # Quickstart & architecture overview
 ├── X_THREAD_READY.md                  # 6-tweet EN thread (<=275 chars each), 45s video script, VI thread + EN translation
 ├── GOOGLE_DOC_SUBMISSION.md           # Copy-paste-ready Google Doc pack matching Superteam Earn rules
 ├── explainer/
@@ -22,7 +22,8 @@ superteam_2fe06f76c811_tokenpocket/
 │       ├── card-3-tron-flexible-fees.png # Rendered 1600x900 PNG ready to attach to Tweet 4
 │       └── card-4-cheat-sheet.png     # Rendered 1600x900 PNG ready to attach to Tweet 6
 ├── scripts/
-│   └── render_cards.py                # Headless Chrome/Edge renderer -> 1600x900 verified PNGs
+│   ├── render_cards.py                # Headless Chrome/Edge renderer -> 1600x900 verified PNGs
+│   └── build_google_doc_html.py       # Embeds all 4 1600x900 PNGs as base64 into 1-file Google Docs HTML
 └── tests/
     └── test_content_compliance.py     # Automated pytest fact-check, character-limit & asset verification suite
 ```
@@ -49,6 +50,9 @@ superteam_2fe06f76c811_tokenpocket/
 ```powershell
 # Re-render all 4 SVG infographic cards to verified 1600x900 PNGs
 & "c:\Users\nqqua\OneDrive\Desktop\money\.venv\Scripts\python.exe" scripts/render_cards.py
+
+# Build 1-file Google Docs import-ready HTML (with all 4 1600x900 PNGs embedded as base64)
+& "c:\Users\nqqua\OneDrive\Desktop\money\.venv\Scripts\python.exe" scripts/build_google_doc_html.py
 
 # Run full automated compliance, character-count & PNG integrity suite
 & "c:\Users\nqqua\OneDrive\Desktop\money\.venv\Scripts\python.exe" -m pytest -v tests/test_content_compliance.py
