@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060A14"/>
+      <stop offset="50%" stop-color="#0B1325"/>
+      <stop offset="100%" stop-color="#0A101F"/>
+    </linearGradient>
+    <linearGradient id="tpGrad4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2980FE"/>
+      <stop offset="100%" stop-color="#45A8FF"/>
+    </linearGradient>
+    <linearGradient id="solGrad4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9945FF"/>
+      <stop offset="100%" stop-color="#14F195"/>
+    </linearGradient>
+    <linearGradient id="tronGrad4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF2E4D"/>
+      <stop offset="100%" stop-color="#FF7B54"/>
+    </linearGradient>
+    <pattern id="grid4" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.6" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg4)"/>
+  <rect width="1600" height="900" fill="url(#grid4)"/>
+
+  <g font-family="'Segoe UI', 'Inter', system-ui, sans-serif">
+    <!-- Top Header -->
+    <rect x="64" y="42" width="366" height="34" rx="17" fill="#13223F" stroke="#2980FE" stroke-opacity="0.6" stroke-width="1.2"/>
+    <circle cx="86" cy="59" r="5" fill="#3B9EFF"/>
+    <text x="102" y="64" fill="#93C5FD" font-size="13.5" font-weight="700" letter-spacing="1.4">SOLANA VS. TRON CHEAT SHEET · 04/04</text>
+
+    <rect x="1220" y="42" width="316" height="34" rx="17" fill="#0F182B" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="1244" cy="59" r="9" fill="url(#tpGrad4)"/>
+    <text x="1244" y="63" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="800">TP</text>
+    <text x="1264" y="64" fill="#E2E8F0" font-size="14" font-weight="700">@TokenPocket_TP</text>
+    <text x="1410" y="64" fill="#64748B" font-size="13" font-weight="600">|  tokenpocket.pro</text>
+
+    <!-- Title -->
+    <text x="64" y="134" fill="#F8FAFC" font-size="44" font-weight="800" letter-spacing="-0.6">Complete Solana vs. TRON Fee-Saving Cheat Sheet</text>
+    <text x="64" y="170" fill="#94A3B8" font-size="19.5">Bookmark this side-by-side reference for exact versions, daily quotas, fee options, and official links.</text>
+
+    <!-- COMPARISON TABLE CONTAINER -->
+    <rect x="64" y="198" width="1472" height="482" rx="20" fill="#0D1628" stroke="#223454" stroke-width="1.5"/>
+
+    <!-- Table Header Row -->
+    <rect x="65" y="199" width="1470" height="62" rx="19" fill="#12203A"/>
+    <rect x="65" y="240" width="1470" height="22" fill="#12203A"/>
+    <line x1="64" y1="261" x2="1536" y2="261" stroke="#24385A" stroke-width="1.5"/>
+
+    <!-- Vertical Column Dividers -->
+    <line x1="364" y1="198" x2="364" y2="680" stroke="#1E2F4C" stroke-width="1.2"/>
+    <line x1="950" y1="198" x2="950" y2="680" stroke="#1E2F4C" stroke-width="1.2"/>
+
+    <!-- Column Headers -->
+    <text x="94" y="237" fill="#94A3B8" font-size="14.5" font-weight="800" letter-spacing="1.2">FEATURE / RULE</text>
+
+    <rect x="392" y="216" width="12" height="26" rx="4" fill="url(#solGrad4)"/>
+    <text x="416" y="237" fill="#14F195" font-size="18" font-weight="800">SOLANA WALLET</text>
+    <text x="580" y="236" fill="#94A3B8" font-size="13.5">Daily Gas-Free SPL Transfers</text>
+
+    <rect x="978" y="216" width="12" height="26" rx="4" fill="url(#tronGrad4)"/>
+    <text x="1002" y="237" fill="#FF6B81" font-size="18" font-weight="800">TRON WALLET</text>
+    <text x="1146" y="236" fill="#94A3B8" font-size="13.5">Pay Fees in USDT / USDD + Cost Savers</text>
+
+    <!-- Row 1: Core Solution -->
+    <rect x="65" y="262" width="1470" height="68" fill="#0F192E" fill-opacity="0.55"/>
+    <text x="94" y="302" fill="#E2E8F0" font-size="15.5" font-weight="700">Core Benefit</text>
+    <text x="392" y="294" fill="#F8FAFC" font-size="15.5" font-weight="700">3 gas-free SPL token transfers / account / day</text>
+    <text x="392" y="317" fill="#94A3B8" font-size="13.5">Eliminates SOL balance anxiety &amp; sudden gas spikes.</text>
+    <text x="978" y="294" fill="#F8FAFC" font-size="15.5" font-weight="700">Pay TRC20 fees directly with USDT or USDD</text>
+    <text x="978" y="317" fill="#94A3B8" font-size="13.5">Covers Bandwidth + Energy with zero TRX required.</text>
+    <line x1="64" y1="330" x2="1536" y2="330" stroke="#1A2942"/>
+
+    <!-- Row 2: App Versions -->
+    <text x="94" y="370" fill="#E2E8F0" font-size="15.5" font-weight="700">App Version</text>
+    <text x="392" y="363" fill="#14F195" font-size="15.5" font-weight="800">Android v2.9.0+  ·  iOS v2.11.0+</text>
+    <text x="392" y="386" fill="#94A3B8" font-size="13.5">Update TokenPocket to see "Gas-Free" on fee options.</text>
+    <text x="978" y="363" fill="#FF8FA3" font-size="15.5" font-weight="800">USDD Gas: Android &amp; iOS v2.8.0+</text>
+    <text x="978" y="386" fill="#94A3B8" font-size="13.5">USDT gas payment available directly in TRON Transfer UI.</text>
+    <line x1="64" y1="400" x2="1536" y2="400" stroke="#1A2942"/>
+
+    <!-- Row 3: Eligible Assets -->
+    <rect x="65" y="401" width="1470" height="68" fill="#0F192E" fill-opacity="0.55"/>
+    <text x="94" y="440" fill="#E2E8F0" font-size="15.5" font-weight="700">Eligible Assets</text>
+    <text x="392" y="433" fill="#F8FAFC" font-size="15.5" font-weight="700">All SPL tokens (USDT, USDC, etc.)</text>
+    <text x="392" y="456" fill="#94A3B8" font-size="13.5">Fee selector supports SOL (default), USDT &amp; USDC.</text>
+    <text x="978" y="433" fill="#F8FAFC" font-size="15.5" font-weight="700">TRC20 transfers (USDT, USDD &amp; more)</text>
+    <text x="978" y="456" fill="#94A3B8" font-size="13.5">Tap [Pay With] to switch from TRX → USDT or USDD.</text>
+    <line x1="64" y1="469" x2="1536" y2="469" stroke="#1A2942"/>
+
+    <!-- Row 4: Exact Limits & Guardrails -->
+    <text x="94" y="510" fill="#FBBF24" font-size="15.5" font-weight="800">Limits &amp; Rules</text>
+    <text x="392" y="502" fill="#FDE68A" font-size="15.5" font-weight="700">Excludes native $SOL · Hard cap 3 / day</text>
+    <text x="392" y="525" fill="#94A3B8" font-size="13.5">Standard Solana fee + account Rent apply outside quota.</text>
+    <text x="978" y="502" fill="#FDE68A" font-size="15.5" font-weight="700">Subsidies FCFS · Rental savings vary with rates</text>
+    <text x="978" y="525" fill="#94A3B8" font-size="13.5">Always verify final fee (or 0 fee) before tapping Confirm.</text>
+    <line x1="64" y1="539" x2="1536" y2="539" stroke="#1A2942"/>
+
+    <!-- Row 5: Extra Savings & Tools -->
+    <rect x="65" y="540" width="1470" height="70" fill="#0F192E" fill-opacity="0.55"/>
+    <text x="94" y="580" fill="#E2E8F0" font-size="15.5" font-weight="700">Extra Savers</text>
+    <text x="392" y="572" fill="#F8FAFC" font-size="15.5" font-weight="700">Zero-friction daily SPL sends</text>
+    <text x="392" y="595" fill="#94A3B8" font-size="13.5">No need to buy or bridge SOL just to move stablecoins.</text>
+    <text x="978" y="572" fill="#F8FAFC" font-size="15.5" font-weight="700">Energy Rental · 3,240 Daily Subsidies · Coupons</text>
+    <text x="978" y="595" fill="#94A3B8" font-size="13.5">Plus 1:1 lossless USDT ↔ USDD swap via TRON PSM.</text>
+    <line x1="64" y1="610" x2="1536" y2="610" stroke="#1A2942"/>
+
+    <!-- Row 6: Quick Action Path -->
+    <text x="94" y="650" fill="#E2E8F0" font-size="15.5" font-weight="700">Fast Path</text>
+    <text x="392" y="650" fill="#6EE7B7" font-size="14.5" font-family="'Cascadia Code', Consolas, monospace" font-weight="700">Solana → SPL → [Send] → Gas-Free → [Confirm]</text>
+    <text x="978" y="650" fill="#FDA4AF" font-size="14.5" font-family="'Cascadia Code', Consolas, monospace" font-weight="700">TRON → Token → [Transfer] → [Pay With] → Confirm</text>
+
+    <!-- BOTTOM 3 OFFICIAL RESOURCE CARDS -->
+    <rect x="64" y="704" width="600" height="114" rx="16" fill="#0F1E3A" stroke="#2980FE" stroke-width="1.5"/>
+    <text x="90" y="736" fill="#60A5FA" font-size="12.5" font-weight="800" letter-spacing="1.2">1. OFFICIAL VIDEO TUTORIAL</text>
+    <text x="90" y="766" fill="#F8FAFC" font-size="17" font-weight="700">Watch TokenPocket's Transfer Walkthrough</text>
+    <text x="90" y="796" fill="#93C5FD" font-size="14" font-family="'Cascadia Code', Consolas, monospace">x.com/TokenPocket_TP/status/2118610097987596552</text>
+
+    <rect x="688" y="704" width="408" height="114" rx="16" fill="#0E172A" stroke="#24385A" stroke-width="1.4"/>
+    <text x="714" y="736" fill="#14F195" font-size="12.5" font-weight="800" letter-spacing="1.2">2. OFFICIAL WEBSITE</text>
+    <text x="714" y="766" fill="#F8FAFC" font-size="17" font-weight="700">Download or Update App</text>
+    <text x="714" y="796" fill="#6EE7B7" font-size="15" font-family="'Cascadia Code', Consolas, monospace">https://tokenpocket.pro</text>
+
+    <rect x="1120" y="704" width="416" height="114" rx="16" fill="#0E172A" stroke="#24385A" stroke-width="1.4"/>
+    <text x="1146" y="736" fill="#FF8FA3" font-size="12.5" font-weight="800" letter-spacing="1.2">3. OFFICIAL DOCS &amp; UPDATES</text>
+    <text x="1146" y="766" fill="#F8FAFC" font-size="17" font-weight="700">Follow @TokenPocket_TP</text>
+    <text x="1146" y="796" fill="#CBD5E1" font-size="14.5" font-family="'Cascadia Code', Consolas, monospace">help.tokenpocket.pro</text>
+
+    <!-- Footer -->
+    <line x1="64" y1="844" x2="1536" y2="844" stroke="#1E293B" stroke-width="1"/>
+    <text x="64" y="874" fill="#64748B" font-size="13.5">Fact-checked against official TokenPocket Solana &amp; TRON FAQs · Always confirm fee display in-wallet before signing.</text>
+
+    <circle cx="1474" cy="869" r="4" fill="#334155"/>
+    <circle cx="1494" cy="869" r="4" fill="#334155"/>
+    <circle cx="1512" cy="869" r="4" fill="#334155"/>
+    <circle cx="1530" cy="869" r="5" fill="#3B9EFF"/>
+  </g>
+</svg>

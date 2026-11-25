@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080A14"/>
+      <stop offset="55%" stop-color="#130E1C"/>
+      <stop offset="100%" stop-color="#0B1120"/>
+    </linearGradient>
+    <radialGradient id="tronGlow3" cx="28%" cy="32%" r="48%">
+      <stop offset="0%" stop-color="#FF2E4D" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#FF7B54" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#080A14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tronBar3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF2E4D"/>
+      <stop offset="100%" stop-color="#FF7B54"/>
+    </linearGradient>
+    <linearGradient id="tpGrad3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2980FE"/>
+      <stop offset="100%" stop-color="#45A8FF"/>
+    </linearGradient>
+    <pattern id="grid3" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.6" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg3)"/>
+  <rect width="1600" height="900" fill="url(#grid3)"/>
+  <rect width="1600" height="900" fill="url(#tronGlow3)"/>
+
+  <g font-family="'Segoe UI', 'Inter', system-ui, sans-serif">
+    <!-- Top Header -->
+    <rect x="64" y="42" width="352" height="34" rx="17" fill="#2B121D" stroke="#FF2E4D" stroke-opacity="0.65" stroke-width="1.2"/>
+    <circle cx="86" cy="59" r="5" fill="#FF2E4D"/>
+    <text x="102" y="64" fill="#FDA4AF" font-size="13.5" font-weight="700" letter-spacing="1.4">TRON FLEXIBLE TOKEN FEES · 03/04</text>
+
+    <rect x="1220" y="42" width="316" height="34" rx="17" fill="#0F182B" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="1244" cy="59" r="9" fill="url(#tpGrad3)"/>
+    <text x="1244" y="63" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="800">TP</text>
+    <text x="1264" y="64" fill="#E2E8F0" font-size="14" font-weight="700">@TokenPocket_TP</text>
+    <text x="1410" y="64" fill="#64748B" font-size="13" font-weight="600">|  tokenpocket.pro</text>
+
+    <!-- Title -->
+    <text x="64" y="136" fill="#F8FAFC" font-size="44" font-weight="800" letter-spacing="-0.6">TRON Without TRX: Pay in <tspan fill="#FF6B81">USDT / USDD</tspan> + Save More</text>
+    <text x="64" y="172" fill="#94A3B8" font-size="20">TRC20 transfers consume Bandwidth &amp; Energy. TokenPocket lets you pay with tokens and stack cost-savers.</text>
+
+    <!-- TOP-LEFT PANEL: USDT & USDD Transfer Flows (858px wide) -->
+    <rect x="64" y="202" width="858" height="370" rx="20" fill="#0F1627" stroke="#3E2233" stroke-width="1.5"/>
+    <rect x="64" y="202" width="858" height="6" rx="3" fill="url(#tronBar3)"/>
+    <text x="94" y="242" fill="#FF6B81" font-size="13" font-weight="800" letter-spacing="1.4">HOW TO PAY TRON NETWORK FEES WITHOUT TRX</text>
+
+    <!-- Path A: USDT -->
+    <rect x="94" y="260" width="798" height="106" rx="14" fill="#131D34" stroke="#26A17B" stroke-opacity="0.55"/>
+    <rect x="112" y="274" width="192" height="26" rx="13" fill="#0E3028" stroke="#26A17B"/>
+    <text x="208" y="291.5" text-anchor="middle" fill="#34D399" font-size="12" font-weight="800">OPTION A · PAY IN USDT</text>
+    <text x="322" y="292" fill="#94A3B8" font-size="13">Ideal when your TRON wallet holds only USDT (0 TRX)</text>
+
+    <!-- Path A mini steps -->
+    <g transform="translate(112, 312)">
+      <rect width="146" height="38" rx="8" fill="#0C1526" stroke="#243554"/>
+      <text x="73" y="24" text-anchor="middle" fill="#E2E8F0" font-size="12.5" font-weight="700">1. USDT → Transfer</text>
+      <text x="157" y="24" fill="#34D399" font-size="15" font-weight="800">→</text>
+
+      <rect x="174" width="194" height="38" rx="8" fill="#0C1526" stroke="#243554"/>
+      <text x="271" y="24" text-anchor="middle" fill="#E2E8F0" font-size="12.5" font-weight="700">2. Recipient + Amount</text>
+      <text x="379" y="24" fill="#34D399" font-size="15" font-weight="800">→</text>
+
+      <rect x="396" width="218" height="38" rx="8" fill="#0C1526" stroke="#26A17B"/>
+      <text x="505" y="24" text-anchor="middle" fill="#6EE7B7" font-size="12.5" font-weight="700">3. Subsidy/Code + USDT Fee</text>
+      <text x="625" y="24" fill="#34D399" font-size="15" font-weight="800">→</text>
+
+      <rect x="642" width="120" height="38" rx="8" fill="#176B53"/>
+      <text x="702" y="24" text-anchor="middle" fill="#FFFFFF" font-size="12.5" font-weight="800">4. Confirm</text>
+    </g>
+
+    <!-- Path B: USDD -->
+    <rect x="94" y="380" width="798" height="106" rx="14" fill="#131D34" stroke="#3B9EFF" stroke-opacity="0.55"/>
+    <rect x="112" y="394" width="262" height="26" rx="13" fill="#10274A" stroke="#3B9EFF"/>
+    <text x="243" y="411.5" text-anchor="middle" fill="#93C5FD" font-size="12" font-weight="800">OPTION B · PAY IN USDD (v2.8.0+)</text>
+    <text x="392" y="412" fill="#94A3B8" font-size="13">iOS &amp; Android v2.8.0+ · Optional 20 TRX buy button also available</text>
+
+    <!-- Path B mini steps -->
+    <g transform="translate(112, 432)">
+      <rect width="152" height="38" rx="8" fill="#0C1526" stroke="#243554"/>
+      <text x="76" y="24" text-anchor="middle" fill="#E2E8F0" font-size="12.5" font-weight="700">1. Token → [Transfer]</text>
+      <text x="162" y="24" fill="#60A5FA" font-size="15" font-weight="800">→</text>
+
+      <rect x="178" width="184" height="38" rx="8" fill="#0C1526" stroke="#3B9EFF"/>
+      <text x="270" y="24" text-anchor="middle" fill="#93C5FD" font-size="12.5" font-weight="700">2. [Pay With] → USDD</text>
+      <text x="372" y="24" fill="#60A5FA" font-size="15" font-weight="800">→</text>
+
+      <rect x="388" width="222" height="38" rx="8" fill="#0C1526" stroke="#243554"/>
+      <text x="499" y="24" text-anchor="middle" fill="#E2E8F0" font-size="12.5" font-weight="700">3. Review Energy Rental Fee</text>
+      <text x="620" y="24" fill="#60A5FA" font-size="15" font-weight="800">→</text>
+
+      <rect x="636" width="126" height="38" rx="8" fill="url(#tpGrad3)"/>
+      <text x="699" y="24" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="800">Confirm Payment</text>
+    </g>
+
+    <!-- PSM Bonus Strip -->
+    <rect x="94" y="502" width="798" height="48" rx="12" fill="#0F213B" stroke="#2980FE" stroke-opacity="0.5"/>
+    <text x="114" y="531" fill="#60A5FA" font-size="13.5" font-weight="800">BONUS (USDD FAQ):</text>
+    <text x="266" y="531" fill="#E2E8F0" font-size="14">Swap <tspan font-weight="700" fill="#FFFFFF">USDT ↔ USDD 1:1 losslessly</tspan> via the <tspan font-weight="700" fill="#93C5FD">TRON PSM</tspan> directly inside TokenPocket Swap.</text>
+
+    <!-- TOP-RIGHT PANEL: Bandwidth + Energy Visual Diagram (588px wide) -->
+    <rect x="948" y="202" width="588" height="370" rx="20" fill="#0F1627" stroke="#2C253A" stroke-width="1.5"/>
+    <text x="980" y="242" fill="#FF9B71" font-size="13" font-weight="800" letter-spacing="1.4">WHY TRC20 TRANSFERS NEED RESOURCES</text>
+    <text x="980" y="272" fill="#F8FAFC" font-size="22" font-weight="800">TRON's Dual Resource Model</text>
+
+    <!-- Resource Box 1: Bandwidth -->
+    <rect x="980" y="294" width="252" height="94" rx="14" fill="#141F36" stroke="#3B82F6" stroke-opacity="0.55"/>
+    <text x="1000" y="324" fill="#60A5FA" font-size="16" font-weight="800">Bandwidth</text>
+    <text x="1000" y="348" fill="#CBD5E1" font-size="13.5">Covers transaction byte</text>
+    <text x="1000" y="368" fill="#CBD5E1" font-size="13.5">size across the TRON network.</text>
+
+    <!-- Resource Box 2: Energy -->
+    <rect x="1252" y="294" width="252" height="94" rx="14" fill="#1E182B" stroke="#FF2E4D" stroke-opacity="0.6"/>
+    <text x="1272" y="324" fill="#FF6B81" font-size="16" font-weight="800">Energy</text>
+    <text x="1272" y="348" fill="#CBD5E1" font-size="13.5">Powers TRC20 smart</text>
+    <text x="1272" y="368" fill="#CBD5E1" font-size="13.5">contract execution (USDT).</text>
+
+    <!-- Problem vs Solution Comparison inside panel -->
+    <rect x="980" y="408" width="524" height="62" rx="12" fill="#2A121C" stroke="#EF4444" stroke-opacity="0.55"/>
+    <text x="1000" y="434" fill="#FCA5A5" font-size="13" font-weight="800">WITHOUT RESOURCES OR TRX</text>
+    <text x="1000" y="456" fill="#FEE2E2" font-size="13.5">TRON burns TRX for missing Energy/Bandwidth → 0 TRX traps your USDT.</text>
+
+    <rect x="980" y="484" width="524" height="66" rx="12" fill="#0F2A2A" stroke="#14F195" stroke-opacity="0.55"/>
+    <text x="1000" y="510" fill="#6EE7B7" font-size="13" font-weight="800">WITH TOKENPOCKET [PAY WITH]</text>
+    <text x="1000" y="532" fill="#ECFDF5" font-size="13.5">Auto-handles Energy/Bandwidth via USDT, USDD, Rental, Subsidy, or Coupon.</text>
+
+    <!-- BOTTOM ROW: 3 TRON Cost-Saving Feature Cards -->
+    <text x="64" y="610" fill="#94A3B8" font-size="13" font-weight="800" letter-spacing="1.5">3 ADDITIONAL TRON COST-SAVING FEATURES BUILT INTO TOKENPOCKET</text>
+
+    <!-- Card 1: Energy Rental -->
+    <rect x="64" y="626" width="474" height="190" rx="18" fill="#0E172A" stroke="#2D3F5E" stroke-width="1.4"/>
+    <rect x="90" y="650" width="144" height="26" rx="13" fill="#2B1420" stroke="#FF5A73"/>
+    <text x="162" y="667.5" text-anchor="middle" fill="#FF8FA3" font-size="12" font-weight="800">ENERGY RENTAL</text>
+    <text x="90" y="706" fill="#F8FAFC" font-size="21" font-weight="800">Rent Energy, Don't Burn TRX</text>
+    <text x="90" y="736" fill="#CBD5E1" font-size="14.5">Rent smart-contract Energy right inside the</text>
+    <text x="90" y="758" fill="#CBD5E1" font-size="14.5">transfer flow to lower TRC20 gas overhead.</text>
+    <text x="90" y="792" fill="#94A3B8" font-size="12.5" font-style="italic">* Actual savings vary with live TRON resource rates.</text>
+
+    <!-- Card 2: Daily Subsidies -->
+    <rect x="563" y="626" width="474" height="190" rx="18" fill="#0E172A" stroke="#1E4A45" stroke-width="1.4"/>
+    <rect x="589" y="650" width="212" height="26" rx="13" fill="#0F2D2A" stroke="#14F195"/>
+    <text x="695" y="667.5" text-anchor="middle" fill="#6EE7B7" font-size="12" font-weight="800">3,240 DAILY SUBSIDIES</text>
+    <text x="589" y="706" fill="#F8FAFC" font-size="21" font-weight="800">First-Come, First-Served Pool</text>
+    <text x="589" y="736" fill="#CBD5E1" font-size="14.5">Claim daily TRON transfer subsidies directly on</text>
+    <text x="589" y="758" fill="#CBD5E1" font-size="14.5">the send screen — eligible sends show <tspan fill="#14F195" font-weight="800">0 fee</tspan>.</text>
+    <text x="589" y="792" fill="#94A3B8" font-size="12.5" font-style="italic">* Subject to in-wallet eligibility &amp; remaining daily quota.</text>
+
+    <!-- Card 3: Redemption Codes / Coupons -->
+    <rect x="1062" y="626" width="474" height="190" rx="18" fill="#0E172A" stroke="#2B3D63" stroke-width="1.4"/>
+    <rect x="1088" y="650" width="236" height="26" rx="13" fill="#132547" stroke="#3B9EFF"/>
+    <text x="1206" y="667.5" text-anchor="middle" fill="#93C5FD" font-size="12" font-weight="800">REDEMPTION CODES &amp; COUPONS</text>
+    <text x="1088" y="706" fill="#F8FAFC" font-size="21" font-weight="800">Redeem Transfer Fee Coupons</text>
+    <text x="1088" y="736" fill="#CBD5E1" font-size="14.5">Enter campaign redemption codes right on the</text>
+    <text x="1088" y="758" fill="#CBD5E1" font-size="14.5">transfer page for partial or full fee discounts.</text>
+    <text x="1088" y="792" fill="#94A3B8" font-size="12.5" font-style="italic">* Earned via official TokenPocket campaigns &amp; terms.</text>
+
+    <!-- Footer -->
+    <line x1="64" y1="844" x2="1536" y2="844" stroke="#1E293B" stroke-width="1"/>
+    <text x="64" y="874" fill="#64748B" font-size="13.5">Official TRON FAQs: <tspan fill="#FDA4AF" font-family="'Cascadia Code', Consolas, monospace">help.tokenpocket.pro/en/wallet-faq-en/tron-wallet/usdt-as-network-fee</tspan>  &amp;  <tspan fill="#93C5FD" font-family="'Cascadia Code', Consolas, monospace">/usdd-gas</tspan></text>
+
+    <circle cx="1474" cy="869" r="4" fill="#334155"/>
+    <circle cx="1494" cy="869" r="4" fill="#334155"/>
+    <circle cx="1512" cy="869" r="5" fill="#FF2E4D"/>
+    <circle cx="1530" cy="869" r="4" fill="#334155"/>
+  </g>
+</svg>

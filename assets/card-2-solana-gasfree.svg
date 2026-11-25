@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060A14"/>
+      <stop offset="55%" stop-color="#0B1325"/>
+      <stop offset="100%" stop-color="#08131D"/>
+    </linearGradient>
+    <radialGradient id="solGlow2" cx="72%" cy="35%" r="48%">
+      <stop offset="0%" stop-color="#14F195" stop-opacity="0.14"/>
+      <stop offset="55%" stop-color="#9945FF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#060A14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="solBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9945FF"/>
+      <stop offset="100%" stop-color="#14F195"/>
+    </linearGradient>
+    <linearGradient id="tpGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2980FE"/>
+      <stop offset="100%" stop-color="#45A8FF"/>
+    </linearGradient>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.6" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <rect width="1600" height="900" fill="url(#grid2)"/>
+  <rect width="1600" height="900" fill="url(#solGlow2)"/>
+
+  <g font-family="'Segoe UI', 'Inter', system-ui, sans-serif">
+    <!-- Top Header -->
+    <rect x="64" y="42" width="352" height="34" rx="17" fill="#10292A" stroke="#14F195" stroke-opacity="0.6" stroke-width="1.2"/>
+    <circle cx="86" cy="59" r="5" fill="#14F195"/>
+    <text x="102" y="64" fill="#6EE7B7" font-size="13.5" font-weight="700" letter-spacing="1.4">SOLANA GAS-FREE TRANSFERS · 02/04</text>
+
+    <rect x="1220" y="42" width="316" height="34" rx="17" fill="#0F182B" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="1244" cy="59" r="9" fill="url(#tpGrad2)"/>
+    <text x="1244" y="63" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="800">TP</text>
+    <text x="1264" y="64" fill="#E2E8F0" font-size="14" font-weight="700">@TokenPocket_TP</text>
+    <text x="1410" y="64" fill="#64748B" font-size="13" font-weight="600">|  tokenpocket.pro</text>
+
+    <!-- Title -->
+    <text x="64" y="136" fill="#F8FAFC" font-size="45" font-weight="800" letter-spacing="-0.6">Solana: <tspan fill="#14F195">3 Gas-Free</tspan> Token Transfers Every Day</text>
+    <text x="64" y="172" fill="#94A3B8" font-size="20">Send SPL tokens like USDT &amp; USDC smoothly — exact steps, app versions, and $SOL exclusion rules.</text>
+
+    <!-- LEFT COLUMN: Rules & Context (552px wide) -->
+    <!-- Card 1: Official Rules & Limits -->
+    <rect x="64" y="206" width="548" height="378" rx="20" fill="#0D1729" stroke="#1D3648" stroke-width="1.5"/>
+    <rect x="64" y="206" width="548" height="6" rx="3" fill="url(#solBar)"/>
+    <text x="94" y="248" fill="#14F195" font-size="13" font-weight="800" letter-spacing="1.4">EXACT CONDITIONS &amp; LIMITS</text>
+    <text x="94" y="278" fill="#F8FAFC" font-size="24" font-weight="800">What You Need to Know</text>
+
+    <!-- Rule Row 1 -->
+    <rect x="94" y="300" width="488" height="56" rx="12" fill="#112036" stroke="#1F3452"/>
+    <text x="114" y="324" fill="#94A3B8" font-size="12.5" font-weight="700">DAILY QUOTA</text>
+    <text x="114" y="346" fill="#14F195" font-size="16" font-weight="800">3 gas-free transfers per account / day</text>
+
+    <!-- Rule Row 2 -->
+    <rect x="94" y="368" width="488" height="56" rx="12" fill="#112036" stroke="#1F3452"/>
+    <text x="114" y="392" fill="#94A3B8" font-size="12.5" font-weight="700">ELIGIBLE TOKENS</text>
+    <text x="114" y="414" fill="#F8FAFC" font-size="16" font-weight="700">All SPL tokens (USDT, USDC, memecoins, etc.)</text>
+
+    <!-- Rule Row 3 (Exclusion Warning) -->
+    <rect x="94" y="436" width="488" height="58" rx="12" fill="#2A1C0A" stroke="#F59E0B" stroke-opacity="0.7"/>
+    <text x="114" y="460" fill="#FBBF24" font-size="12.5" font-weight="800">EXCLUDED ASSET</text>
+    <text x="114" y="482" fill="#FEF3C7" font-size="15.5" font-weight="700">Native $SOL transfers are NOT covered</text>
+
+    <!-- Rule Row 4 -->
+    <rect x="94" y="506" width="488" height="56" rx="12" fill="#112036" stroke="#9945FF" stroke-opacity="0.5"/>
+    <text x="114" y="530" fill="#C4B5FD" font-size="12.5" font-weight="700">MINIMUM APP VERSION</text>
+    <text x="114" y="552" fill="#F8FAFC" font-size="16" font-weight="700">Android v2.9.0+  ·  iOS v2.11.0+</text>
+
+    <!-- Card 2: Accurate Solana Fee Context -->
+    <rect x="64" y="606" width="548" height="210" rx="20" fill="#0D1626" stroke="#1E293B" stroke-width="1.4"/>
+    <text x="94" y="644" fill="#93C5FD" font-size="13" font-weight="800" letter-spacing="1.4">WHY THIS MATTERS ON SOLANA</text>
+    <text x="94" y="676" fill="#F8FAFC" font-size="19" font-weight="700">Native Solana Fees &amp; Account Rent</text>
+    <text x="94" y="706" fill="#CBD5E1" font-size="15">Solana natively charges a small transaction fee</text>
+    <text x="94" y="728" fill="#CBD5E1" font-size="15">(50% burned on-chain) plus Rent for account storage.</text>
+    <text x="94" y="762" fill="#94A3B8" font-size="14.5">TokenPocket's Gas-Free service covers eligible SPL</text>
+    <text x="94" y="784" fill="#94A3B8" font-size="14.5">transfers within the 3/day quota — removing SOL friction.</text>
+
+    <!-- RIGHT COLUMN: 3-Step Visual Phone Walkthrough (896px wide) -->
+    <rect x="640" y="206" width="896" height="610" rx="20" fill="#0D1729" stroke="#1E314D" stroke-width="1.5"/>
+    <text x="676" y="248" fill="#14F195" font-size="13" font-weight="800" letter-spacing="1.4">STEP-BY-STEP IN TOKENPOCKET</text>
+    <text x="676" y="278" fill="#F8FAFC" font-size="24" font-weight="800">How to Send a Gas-Free SPL Token Transfer</text>
+
+    <!-- STEP 1 PHONE -->
+    <g transform="translate(676, 304)">
+      <rect width="252" height="360" rx="24" fill="#080F1E" stroke="#2D4367" stroke-width="2"/>
+      <rect x="86" y="10" width="80" height="8" rx="4" fill="#1E293B"/>
+      <rect x="18" y="32" width="66" height="24" rx="12" fill="#14F195" fill-opacity="0.18"/>
+      <text x="51" y="48" text-anchor="middle" fill="#14F195" font-size="12" font-weight="800">STEP 1</text>
+      <text x="18" y="80" fill="#F8FAFC" font-size="16" font-weight="800">Select SPL Token</text>
+
+      <!-- Mini Wallet UI -->
+      <rect x="18" y="96" width="216" height="58" rx="12" fill="#112038" stroke="#1E3A5F"/>
+      <circle cx="44" cy="125" r="14" fill="#26A17B"/>
+      <text x="44" y="130" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="800">₮</text>
+      <text x="68" y="121" fill="#F8FAFC" font-size="14" font-weight="700">USDT (SPL)</text>
+      <text x="68" y="140" fill="#94A3B8" font-size="12">Solana Wallet</text>
+      <text x="220" y="129" text-anchor="end" fill="#F8FAFC" font-size="13.5" font-weight="700">250.00</text>
+
+      <rect x="18" y="164" width="216" height="46" rx="10" fill="#0E192D" stroke="#1E293B"/>
+      <text x="32" y="191" fill="#64748B" font-size="12.5">SOL Balance: 0.000 SOL</text>
+
+      <!-- Bottom-left Send button highlight -->
+      <rect x="18" y="232" width="102" height="42" rx="11" fill="url(#tpGrad2)"/>
+      <text x="69" y="258" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800">[Send]</text>
+      <rect x="132" y="232" width="102" height="42" rx="11" fill="#132138" stroke="#283A57"/>
+      <text x="183" y="258" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="700">Receive</text>
+
+      <text x="18" y="302" fill="#CBD5E1" font-size="13">Open Solana wallet → tap</text>
+      <text x="18" y="320" fill="#CBD5E1" font-size="13">your SPL token (e.g. USDT)</text>
+      <text x="18" y="338" fill="#93C5FD" font-size="13" font-weight="700">→ tap [Send] (bottom-left).</text>
+    </g>
+
+    <!-- Arrow 1->2 -->
+    <line x1="936" y1="476" x2="956" y2="476" stroke="#14F195" stroke-width="2.5"/>
+    <polygon points="956,470 966,476 956,482" fill="#14F195"/>
+
+    <!-- STEP 2 PHONE -->
+    <g transform="translate(972, 304)">
+      <rect width="252" height="360" rx="24" fill="#080F1E" stroke="#14F195" stroke-opacity="0.7" stroke-width="2"/>
+      <rect x="86" y="10" width="80" height="8" rx="4" fill="#1E293B"/>
+      <rect x="18" y="32" width="66" height="24" rx="12" fill="#14F195" fill-opacity="0.18"/>
+      <text x="51" y="48" text-anchor="middle" fill="#14F195" font-size="12" font-weight="800">STEP 2</text>
+      <text x="18" y="80" fill="#F8FAFC" font-size="16" font-weight="800">Check Fee Asset</text>
+
+      <!-- Fee Selector UI -->
+      <text x="18" y="106" fill="#94A3B8" font-size="11.5" font-weight="700">SELECT NETWORK FEE ASSET</text>
+      <rect x="18" y="116" width="216" height="38" rx="9" fill="#122B2E" stroke="#14F195"/>
+      <text x="32" y="140" fill="#F8FAFC" font-size="13.5" font-weight="700">SOL (Default)</text>
+      <rect x="150" y="124" width="74" height="22" rx="11" fill="#14F195"/>
+      <text x="187" y="139" text-anchor="middle" fill="#041E16" font-size="11" font-weight="800">Gas-Free</text>
+
+      <rect x="18" y="162" width="216" height="38" rx="9" fill="#101D33" stroke="#1E3A5F"/>
+      <text x="32" y="186" fill="#CBD5E1" font-size="13.5" font-weight="600">USDT</text>
+      <rect x="150" y="170" width="74" height="22" rx="11" fill="#14F195" fill-opacity="0.22" stroke="#14F195"/>
+      <text x="187" y="185" text-anchor="middle" fill="#14F195" font-size="11" font-weight="800">Gas-Free</text>
+
+      <rect x="18" y="208" width="216" height="38" rx="9" fill="#101D33" stroke="#1E3A5F"/>
+      <text x="32" y="232" fill="#CBD5E1" font-size="13.5" font-weight="600">USDC</text>
+      <rect x="150" y="216" width="74" height="22" rx="11" fill="#14F195" fill-opacity="0.22" stroke="#14F195"/>
+      <text x="187" y="231" text-anchor="middle" fill="#14F195" font-size="11" font-weight="800">Gas-Free</text>
+
+      <text x="18" y="280" fill="#CBD5E1" font-size="13">SOL, USDT &amp; USDC fee</text>
+      <text x="18" y="298" fill="#CBD5E1" font-size="13">options all display</text>
+      <text x="18" y="316" fill="#14F195" font-size="13" font-weight="800">"Gas-Free" while daily</text>
+      <text x="18" y="334" fill="#14F195" font-size="13" font-weight="800">3/day quota remains.</text>
+    </g>
+
+    <!-- Arrow 2->3 -->
+    <line x1="1232" y1="476" x2="1252" y2="476" stroke="#14F195" stroke-width="2.5"/>
+    <polygon points="1252,470 1262,476 1252,482" fill="#14F195"/>
+
+    <!-- STEP 3 PHONE -->
+    <g transform="translate(1268, 304)">
+      <rect width="234" height="360" rx="24" fill="#080F1E" stroke="#2D4367" stroke-width="2"/>
+      <rect x="77" y="10" width="80" height="8" rx="4" fill="#1E293B"/>
+      <rect x="18" y="32" width="66" height="24" rx="12" fill="#2980FE" fill-opacity="0.24"/>
+      <text x="51" y="48" text-anchor="middle" fill="#60A5FA" font-size="12" font-weight="800">STEP 3</text>
+      <text x="18" y="80" fill="#F8FAFC" font-size="16" font-weight="800">Verify &amp; Confirm</text>
+
+      <!-- Summary Box -->
+      <rect x="18" y="98" width="198" height="106" rx="12" fill="#101D33" stroke="#1E3A5F"/>
+      <text x="30" y="122" fill="#94A3B8" font-size="12">Amount</text>
+      <text x="204" y="122" text-anchor="end" fill="#F8FAFC" font-size="13" font-weight="700">100 USDT</text>
+      <line x1="30" y1="136" x2="204" y2="136" stroke="#1E293B"/>
+      <text x="30" y="160" fill="#94A3B8" font-size="12">Network Fee</text>
+      <text x="204" y="160" text-anchor="end" fill="#14F195" font-size="13.5" font-weight="800">Gas-Free</text>
+      <line x1="30" y1="172" x2="204" y2="172" stroke="#1E293B"/>
+      <text x="30" y="194" fill="#94A3B8" font-size="12">Daily Quota</text>
+      <text x="204" y="194" text-anchor="end" fill="#93C5FD" font-size="12.5" font-weight="700">1 of 3 Used</text>
+
+      <!-- Confirm CTA -->
+      <rect x="18" y="224" width="198" height="44" rx="12" fill="url(#solBar)"/>
+      <text x="117" y="251" text-anchor="middle" fill="#041310" font-size="14.5" font-weight="800">[Confirm]</text>
+
+      <text x="18" y="298" fill="#CBD5E1" font-size="13">Verify the fee reads</text>
+      <text x="18" y="316" fill="#14F195" font-size="13" font-weight="700">"Gas-Free"</text>
+      <text x="86" y="316" fill="#CBD5E1" font-size="13">then tap</text>
+      <text x="18" y="334" fill="#CBD5E1" font-size="13">[Confirm] to broadcast.</text>
+    </g>
+
+    <!-- Daily Quota Meter Bar -->
+    <rect x="676" y="688" width="826" height="98" rx="14" fill="#0A1324" stroke="#1E3454"/>
+    <text x="700" y="718" fill="#94A3B8" font-size="12.5" font-weight="800" letter-spacing="1.2">DAILY PER-ACCOUNT QUOTA VISUALIZER</text>
+
+    <rect x="700" y="732" width="184" height="38" rx="9" fill="#0E2E2B" stroke="#14F195"/>
+    <text x="792" y="756" text-anchor="middle" fill="#14F195" font-size="13.5" font-weight="800">#1 SPL → Gas-Free</text>
+
+    <rect x="898" y="732" width="184" height="38" rx="9" fill="#0E2E2B" stroke="#14F195"/>
+    <text x="990" y="756" text-anchor="middle" fill="#14F195" font-size="13.5" font-weight="800">#2 SPL → Gas-Free</text>
+
+    <rect x="1096" y="732" width="184" height="38" rx="9" fill="#0E2E2B" stroke="#14F195"/>
+    <text x="1188" y="756" text-anchor="middle" fill="#14F195" font-size="13.5" font-weight="800">#3 SPL → Gas-Free</text>
+
+    <rect x="1294" y="732" width="188" height="38" rx="9" fill="#1B2233" stroke="#475569" stroke-dasharray="5,4"/>
+    <text x="1388" y="756" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="700">#4+ → Standard Fee</text>
+
+    <!-- Footer -->
+    <line x1="64" y1="844" x2="1536" y2="844" stroke="#1E293B" stroke-width="1"/>
+    <text x="64" y="874" fill="#64748B" font-size="13.5">Official Solana FAQ: <tspan fill="#93C5FD" font-family="'Cascadia Code', Consolas, monospace">help.tokenpocket.pro/en/wallet-faq-en/solana-wallet/gas-free-service-on-solana</tspan></text>
+
+    <circle cx="1474" cy="869" r="4" fill="#334155"/>
+    <circle cx="1494" cy="869" r="5" fill="#14F195"/>
+    <circle cx="1512" cy="869" r="4" fill="#334155"/>
+    <circle cx="1530" cy="869" r="4" fill="#334155"/>
+  </g>
+</svg>
