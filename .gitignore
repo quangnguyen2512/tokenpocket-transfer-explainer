@@ -12,3 +12,8 @@ Thumbs.db
 FINAL_5MIN_SUBMIT_GUIDE.md
 OPEN_TOKENPOCKET_SUBMIT.ps1
 GOOGLE_DOC_IMPORT_READY.html
+
+# Local Knowledge Graph caches
+.ua/
+.understand-anything/
+ARCHITECTURE.md
